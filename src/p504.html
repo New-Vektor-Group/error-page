@@ -36,7 +36,7 @@ body
 <body> 
 
 <div class="mt-5 py-1 container">
-	<div class="bg fade hide text-center">
+	<div class="bg text-center">
 		<div class="display-2">Error 504</div>
 		<div class="display-2" style="font-size: 30px;"> Oops...</div>
 	</div>
@@ -46,19 +46,19 @@ body
 <script src="https://ex.nvg-team.com/jquery-3.3.1.js"></script> 
 <script src="https://ex.nvg-team.com/bootstrap3.js"></script> 
 <script type="text/javascript">
-var version = 1;
+var version = 2;
 
 function ensd()
 {
-	$(".fade").addClass("show");
-	$(".fade").removeClass("hide");
+	$(".container").slideToggle(1);
+	$(".container").slideToggle(500);
 }
 
 
 $(function()
 {
     
-setTimeout("ensd()",50);
+setTimeout("ensd()",60);
 
 });
 </script>
