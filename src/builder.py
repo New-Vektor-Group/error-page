@@ -7,7 +7,7 @@ for i in ListErrors:
     t = t.replace("{$TITLE$}", "Error " + str(i))
     t = t.replace("{$ERROR$}", "" + str(i))
 
-    with open("../build/"+str(i)+".html","w") as f:
+    with open("../builded/"+str(i)+".html","w") as f:
         f.write(t)
 
 print("Done!")
