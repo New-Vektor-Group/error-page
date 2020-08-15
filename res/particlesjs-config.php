@@ -1,4 +1,6 @@
-{
+<?php header('Access-Control-Allow-Origin: *');
+
+echo '{
   "particles": {
     "number": {
       "value": 50,
@@ -107,4 +109,6 @@
     }
   },
   "retina_detect": false
-}
+}';
+
+?>
