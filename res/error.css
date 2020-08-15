@@ -22,6 +22,13 @@ html
     position: fixed;
     top: 19%;
     left: 45%;
+
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
 
 @media screen and (max-width: 878px) {
