@@ -9,6 +9,11 @@ html
     overflow: hidden;
 }
 
+.particles-js-canvas-el {
+	height: 100vmax !important;
+	z-index: 0;
+}
+
 .glitch {
     color: white;
     font-size: 100px;
