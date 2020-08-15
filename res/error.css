@@ -20,14 +20,28 @@ html
     position: relative;
     z-index: 2;
     position: fixed;
-    top: 200px;
+    top: 19%;
     left: 45%;
+}
+
+@media screen and (max-width: 878px) {
+    .glitch
+    {
+        left: 40%;
+    }
 }
 
 @media screen and (max-width: 520px) {
     .glitch
     {
-        left: 25%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .glitch
+    {
+        left: 23%;
     }
 }
 
