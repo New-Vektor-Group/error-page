@@ -1,2 +1,2 @@
-# error-page
+# Error-page
 Just Error Documents for servers
