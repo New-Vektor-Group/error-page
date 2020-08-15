@@ -16,7 +16,7 @@ echo '{
       "type": "circle",
       "stroke": {
         "width": 1,
-        "color": "#64ffbf"
+        "color": "#6666ff"
       },
       "polygon": {
         "nb_sides": 5
