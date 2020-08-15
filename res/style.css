@@ -16,7 +16,14 @@ html
     z-index: 2;
     position: fixed;
     top: 200px;
-    left: 35%;
+    left: 45%;
+}
+
+@media screen and (max-width: 520px) {
+    .glitch
+    {
+        left: 25%;
+    }
 }
 
 .glitch::before {
@@ -26,7 +33,7 @@ html
     text-shadow: 3px 0 blue;
     top: 0;
     color: white;
-    background: black;
+    background: #0c0c0c;
     overflow: hidden;
     animation: noise-anim-2 15s infinite linear alternate-reverse;
 }
@@ -38,7 +45,7 @@ html
     text-shadow: -3px 0 red;
     top: 0;
     color: white;
-    background: black;
+    background: #0c0c0c;
     overflow: hidden;
     animation: noise-anim 2s infinite linear alternate-reverse;
 }
