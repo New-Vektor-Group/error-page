@@ -12,7 +12,7 @@ You can view [an example for 404](https://nvg-group.com/404)
 
 **Configure**. Type all error what you need in `./src/builder.py`
 
-    $ ListErrors=(400,401,402,403,404,405,500,502,503,504,505,526)
+    ListErrors=(400,401,402,403,404,405,500,502,503,504,505,526)
     
 **Template**. Use `./src/template.html` and `./res/error.css` for *hack* styled template or make up them yourself.  
 
