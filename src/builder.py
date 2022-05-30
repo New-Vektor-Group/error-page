@@ -11,4 +11,9 @@ for i in ListErrors:
         f.write(t)
     print(f"error_page {i} /errors/{i}.html;")
 
-print("Done!")
+print("location /errors {"
+            "alias /etc/nginx/errors;"
+            "allow all;"
+            "auth_basic off;"
+        "}"
+      )
