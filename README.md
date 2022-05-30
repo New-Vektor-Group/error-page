@@ -14,6 +14,8 @@ You can view [an example for 404](https://nvg-group.com/404)
 
     ListErrors=(400,401,402,403,404,405,500,502,503,504,505,526)
     
+**All HTTP Codes** https://umbraco.com/knowledge-base/http-status-codes/
+
 **Template**. Use `./src/template.html` and `./res/error.css` for *hack* styled template or make up them yourself.  
 
 **Javascript**. If you want, you can use [particles.js](https://github.com/VincentGarreau/particles.js/) for background. You can change .json config file in `./res/particlesjs-config.php` if you use ***PHP***. Otherwise rename the file to .json  
